@@ -16,7 +16,7 @@ export default class Problem {
     let pos = form.pos.value.trim();
     let idea = form.idea.value.trim();
     // console.log(title, pos, idea);
-    // 2 判断表单中每一项是否有值,如果为空,则提示
+    // 2 判断表单中每一项是否有值,如果为空,则提示-
     if (!title || !pos || !idea) {
       throw new Error('表单不能为空');
     }
